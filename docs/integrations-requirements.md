@@ -14,7 +14,10 @@ El objetivo primordial aquí es crear un puente robusto que conecte la balanza (
     * **Ejemplo:** Dispositivos líderes como **Lantronix (e.g., series EDS, UDS)**, Moxa, Digi, o alternativas genéricas de menor costo que ofrecen funcionalidad similar.
     * **Función Principal:** Este componente es crucial. Se conecta directamente al puerto RS232C de la balanza y se encarga de **transformar la comunicación serie digital en paquetes de red TCP/IP (Ethernet)**. Funciona como un *middleware de hardware*, haciendo que el puerto serie de la balanza sea accesible desde cualquier ordenador o servidor en su red local, como si estuviera conectado directamente.
 
-    ![Servidor de Dispositivo Serie a Ethernet - Lantronix EDS](https://m.media-amazon.com/images/I/91lunZoPeoL._AC_SL1500_.jpg)
+    <p align="center">
+        <img src="files/Lantronix.png" alt="Servidor de Dispositivo Serie a Ethernet - Lantronix EDS" width="400"/>
+    </p>
+    
     *Figura 1: Ejemplo de un servidor de dispositivo serie Lantronix EDS, un dispositivo clave para la conversión RS232 a Ethernet.*
 
     * **Consideraciones de Costo:** Aunque marcas como Lantronix son sinónimo de robustez y fiabilidad, sus costos pueden ser moderados. Existen opciones más económicas de otros fabricantes que cumplen la función básica de conversión serie a Ethernet. La elección final dependerá del presupuesto asignado y de los niveles de fiabilidad y soporte técnico requeridos.
@@ -23,4 +26,4 @@ El objetivo primordial aquí es crear un puente robusto que conecte la balanza (
 * **🔌 Cable Serie RS232 (DB9):**
     * **Descripción:** El conector físico esencial para unir la balanza con el servidor de dispositivo serie.
     * **Configuración:** La configuración específica (directo o null-modem) y el pinout exacto deben ser verificados directamente en el manual técnico de su modelo de balanza.
-    * **Costo Estimado:** Aproximadamente **$5 - $15 USD
+    * **Costo Estimado:** Aproximadamente **$5 -
