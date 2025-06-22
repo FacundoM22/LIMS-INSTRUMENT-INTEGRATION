@@ -16,7 +16,7 @@ Esta sección organiza los temas clave que cubre esta documentación, desde los 
         * _Introducción a los desafíos y soluciones generales en la conexión de equipos._
 
 * **3. Escenario de Implementación: Instrumentos Legacy con LIMS**
-    * [Caso Práctico: Integración de una Balanza Mettler Toledo MS (RS232)](docs/legacy-instrument-integration-scenario.md)
+    * [Caso Práctico: Integración de una Balanza Mettler Toledo MS (RS232)](docs/legacy-instrument-integrations.md)
         * _Análisis de un caso real para integrar un instrumento antiguo (con enfoque RS232) a un LIMS, incluyendo requisitos de hardware/software y consideraciones de protocolo._
         * [Introducción al Protocolo RS232 y Conceptos Clave](docs/RS232-fundamental-concepts.md)
             * _Detalle técnico sobre el funcionamiento de RS232, sus pines, DTE/DCE y control de flujo._
