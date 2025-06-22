@@ -26,4 +26,4 @@ Si bien la interfaz USB ofrece una modernidad aparente, su implementación a men
 
 Para mantener nuestro enfoque en una solución de **bajo costo y máxima compatibilidad** con la mayoría de los sistemas legacy, esta documentación se centrará principalmente en la **integración a través de la interfaz serie RS232C**. Esta opción es universalmente soportada, bien documentada y, por lo general, la más sencilla de implementar con herramientas y adaptadores económicos.
 
-La integración vía USB, aunque es una alternativa viable que podría explorarse en futuras secciones, suele implicar complejidades adicionales (e.g., Virtual COM Port, HID, o drivers específicos) que podrían desviarnos de nuestro objetivo de minimizar recursos y costos.
+
