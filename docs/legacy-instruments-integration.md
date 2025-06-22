@@ -27,3 +27,14 @@ Si bien la interfaz USB ofrece una modernidad aparente, su implementación a men
 Para mantener nuestro enfoque en una solución de **bajo costo y máxima compatibilidad** con la mayoría de los sistemas legacy, esta documentación se centrará principalmente en la **integración a través de la interfaz serie RS232C**. Esta opción es universalmente soportada, bien documentada y, por lo general, la más sencilla de implementar con herramientas y adaptadores económicos.
 
 
+### Requisitos Esenciales para la Integración
+
+Para llevar a cabo la integración de la balanza Mettler Toledo Newclassic MS utilizando la interfaz RS232C y enviar sus datos a un LIMS, es necesario cumplir con un conjunto de requisitos específicos de hardware y software.
+
+Le invitamos a consultar la siguiente sección donde detallamos exhaustivamente estos elementos:
+
+➡️ [**3. Requisitos para la Integración (Hardware y Software)**](docs/integration_requirements.md)
+
+---
+
+Este documento seguirá profundizando en cada uno de estos puntos, mostrando casos reales y ejemplos prácticos de integración con equipos específicos.
