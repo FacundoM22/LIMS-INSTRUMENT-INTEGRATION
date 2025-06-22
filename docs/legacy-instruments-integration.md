@@ -12,8 +12,10 @@ Para ilustrar esta problemática y proponer soluciones prácticas y de bajo cost
 
 A continuación, se muestra una vista general de un modelo típico de la serie Mettler Toledo Newclassic MS, destacando sus componentes y, crucialmente, sus opciones de conectividad:
 
-[**Figura 1: Vista General de la Balanza Mettler Toledo Newclassic MS**](image_7b3a2a.png)
-*(Se asume que la imagen image_7b3a2a.png está en la misma carpeta que este documento)*
+<p align="center">
+    <img src="files/Balanza.jpeg" alt="Vista General de la Balanza Mettler Toledo Newclassic MS" width="600"/>
+</p>
+*Figura 1: Vista General de la Balanza Mettler Toledo Newclassic MS y sus opciones de conectividad.*
 
 ### Conectividad de la Balanza: USB vs. RS232C
 
