@@ -8,6 +8,8 @@
 
 - [¿Qué es LIMS y cuáles son sus usos?](docs/lims.md)
 
+- [Integración de Instrumentos en Laboratorios](docs/instruments-integration.md)
+
 ---
 
 ## 📝 Introducción
