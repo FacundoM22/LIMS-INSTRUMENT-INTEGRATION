@@ -1,4 +1,4 @@
-# LIMS-INSTRUMENT-INTEGRATION
+# INTEGRACION DE INSTRUMENTOS AL SISTEMA LIMS
 
 **Documentación técnica sobre la integración de instrumentos de laboratorio con un sistema LIMS.**
 
