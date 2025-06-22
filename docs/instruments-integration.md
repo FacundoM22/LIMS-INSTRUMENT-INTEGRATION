@@ -14,7 +14,7 @@ Entre los equipos más frecuentes que se encuentran en un laboratorio se incluye
 - **🧫 pH-metros y conductímetros:** para mediciones de propiedades químicas.
 - **💧 HPLC:** para análisis de líquidos con alta resolución.
 
-Cada uno de estos instrumentos puede variar en la forma en que transmite sus datos, desde interfaces simples como **[RS-232](docs/RS232-fundamental-concepts.md)** hasta conexiones USB, Ethernet o inalámbricas.
+Cada uno de estos instrumentos puede variar en la forma en que transmite sus datos, desde interfaces simples como **[RS-232](RS232-fundamental-concepts.md)** hasta conexiones USB, Ethernet o inalámbricas.
 
 ## Retos en la integración
 
@@ -26,12 +26,12 @@ Cada uno de estos instrumentos puede variar en la forma en que transmite sus dat
 
 ## Soluciones comunes
 
-- **🔌 Uso de interfaces estándar:** aprovechar protocolos universales como **[RS-232](docs/RS232-fundamental-concepts.md)**, TCP/IP para facilitar la conexión.
+- **🔌 Uso de interfaces estándar:** aprovechar protocolos universales como **[RS-232](RS232-fundamental-concepts.md)**, TCP/IP para facilitar la conexión.
 - **💻 Desarrollo de scripts o drivers personalizados:** para interpretar y transformar los datos según el formato del instrumento.
 - **🔗 Middleware o software intermediario:** que actúe como puente entre los instrumentos y el LIMS.
 - **🤖 Automatización y monitoreo continuo:** para asegurar la integridad y disponibilidad de la información.
 
-> Para abordar el desafío de adaptar tecnología antigua o legacy, nos enfocamos especialmente en el uso de protocolos universales como **[RS-232](docs/RS232-fundamental-concepts.md)**, que permiten integrar equipos obsoletos de forma eficiente y económica sin necesidad de reemplazos costosos. Para profundizar en el funcionamiento de este protocolo, sus conceptos y terminología, consulte nuestra [**Introducción al Protocolo de Comunicación Serie RS232**](docs/RS232-fundamental-concepts.md).
+> Para abordar el desafío de adaptar tecnología antigua o legacy, nos enfocamos especialmente en el uso de protocolos universales como **[RS-232](RS232-fundamental-concepts.md)**, que permiten integrar equipos obsoletos de forma eficiente y económica sin necesidad de reemplazos costosos. Para profundizar en el funcionamiento de este protocolo, sus conceptos y terminología, consulte nuestra [**Introducción al Protocolo de Comunicación Serie RS232**](RS232-fundamental-concepts.md).
 
 ---
 
