@@ -18,4 +18,6 @@ Este repositorio presenta una guía detallada sobre la integración de equipos d
 
 El objetivo es compartir conocimiento práctico y teórico para facilitar la implementación de soluciones que mejoren la trazabilidad y eficiencia en entornos de laboratorio.
 
+![Sistema LIMS para Laboratorios](https://media.licdn.com/dms/image/C5612AQFOWJ8Dwntwpg/article-cover_image-shrink_720_1280/0/1591671532125?e=2147483647&v=beta&t=rrZzjJp24OxLL7XAai05PrVAqV7BneDYCKgRS_eAXv4)
+
 ---
