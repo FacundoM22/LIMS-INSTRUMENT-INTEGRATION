@@ -10,7 +10,6 @@ Esta sección organiza los temas clave que cubre esta documentación, desde los 
 
 * **1. Fundamentos del LIMS**
     * [¿Qué es un LIMS y cuáles son sus usos?](docs/lims.md)
-        * _Exploración de la función central y beneficios de un LIMS en la gestión de laboratorios._
 
 * **2. Integración de Instrumentos en Laboratorios**
     * [Conceptos Fundamentales de Integración](docs/instruments-integration.md)
@@ -21,8 +20,6 @@ Esta sección organiza los temas clave que cubre esta documentación, desde los 
         * _Análisis de un caso real para integrar un instrumento antiguo (con enfoque RS232) a un LIMS, incluyendo requisitos de hardware/software y consideraciones de protocolo._
         * [Introducción al Protocolo RS232 y Conceptos Clave](docs/RS232-fundamental-concepts.md)
             * _Detalle técnico sobre el funcionamiento de RS232, sus pines, DTE/DCE y control de flujo._
-        * [Requisitos de Hardware y Software para la Balanza Mettler Toledo](docs/integrations_requirements.md)
-            * _Especificaciones detalladas de los componentes necesarios para la integración de la balanza._
 
 ---
 
