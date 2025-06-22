@@ -13,4 +13,17 @@ Para ilustrar esta problemática y proponer soluciones prácticas y de bajo cost
 A continuación, se muestra una vista general de un modelo típico de la serie Mettler Toledo Newclassic MS, destacando sus componentes y, crucialmente, sus opciones de conectividad:
 
 ![Mettler Toledo Newclassic MS Semi-Micro Analytical Balance - Vista General y Puertos](files/Balanza.jpeg)
-_Figura 1: Vista general y leyenda de componentes de una balanza Mettler Toledo Newclassic MS. Nótense los puertos RS232C (16) y USB (15) en el panel lateral._
+
+
+### Conectividad de la Balanza: USB vs. RS232C
+
+Como se observa en la Figura 1, la balanza Mettler Toledo Newclassic MS cuenta con dos interfaces de comunicación clave:
+
+* **15: Interfaz USB para Dispositivos**
+* **16: Interfaz Serie RS232C**
+
+Si bien la interfaz USB ofrece una modernidad aparente, su implementación a menudo puede requerir controladores específicos o protocolos propietarios que aumenten la complejidad y, potencialmente, el costo de hardware o software.
+
+Para mantener nuestro enfoque en una solución de **bajo costo y máxima compatibilidad** con la mayoría de los sistemas legacy, esta documentación se centrará principalmente en la **integración a través de la interfaz serie RS232C**. Esta opción es universalmente soportada, bien documentada y, por lo general, la más sencilla de implementar con herramientas y adaptadores económicos.
+
+La integración vía USB, aunque es una alternativa viable que podría explorarse en futuras secciones, suele implicar complejidades adicionales (e.g., Virtual COM Port, HID, o drivers específicos) que podrían desviarnos de nuestro objetivo de minimizar recursos y costos.
