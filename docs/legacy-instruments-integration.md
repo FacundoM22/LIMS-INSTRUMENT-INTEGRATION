@@ -33,7 +33,7 @@ Para llevar a cabo la integración de la balanza Mettler Toledo Newclassic MS ut
 
 Le invitamos a consultar la siguiente sección donde detallamos exhaustivamente estos elementos:
 
-➡️ [**3. Requisitos para la Integración (Hardware y Software)**](integration_requirements.md)
+➡️ [**3. Requisitos para la Integración (Hardware y Software)**](integrations_requirements.md)
 
 ---
 
