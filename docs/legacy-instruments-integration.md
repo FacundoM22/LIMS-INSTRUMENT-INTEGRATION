@@ -1,4 +1,4 @@
-# Integración de Instrumentos Legacy de Laboratorio con LIMS (Low-Cost)
+# 🔌 Integración de Instrumentos Legacy de Laboratorio con LIMS (Low-Cost)
 
 ## 🧪 El Desafío de los Instrumentos Legacy en el Laboratorio Moderno
 
@@ -12,20 +12,20 @@ Para ilustrar esta problemática y proponer soluciones prácticas y de bajo cost
 
 A continuación, se muestra una vista general de un modelo típico de la serie Mettler Toledo Newclassic MS, destacando sus componentes y, crucialmente, sus opciones de conectividad:
 
-![Mettler Toledo Newclassic MS Semi-Micro Analytical Balance - Vista General y Puertos](files/Balanza.jpeg)
-
+[**Figura 1: Vista General de la Balanza Mettler Toledo Newclassic MS**](image_7b3a2a.png)
+*(Se asume que la imagen image_7b3a2a.png está en la misma carpeta que este documento)*
 
 ### Conectividad de la Balanza: USB vs. RS232C
 
 Como se observa en la Figura 1, la balanza Mettler Toledo Newclassic MS cuenta con dos interfaces de comunicación clave:
-
-* **15: Interfaz USB para Dispositivos**
-* **16: Interfaz Serie RS232C**
+1.  **Interfaz USB para Dispositivos**
+2.  **Interfaz Serie RS232C**
 
 Si bien la interfaz USB ofrece una modernidad aparente, su implementación a menudo puede requerir controladores específicos o protocolos propietarios que aumenten la complejidad y, potencialmente, el costo de hardware o software.
 
-Para mantener nuestro enfoque en una solución de **bajo costo y máxima compatibilidad** con la mayoría de los sistemas legacy, esta documentación se centrará principalmente en la **integración a través de la interfaz serie RS232C**. Esta opción es universalmente soportada, bien documentada y, por lo general, la más sencilla de implementar con herramientas y adaptadores económicos.
+Para mantener nuestro enfoque en una solución de **bajo costo y máxima compatibilidad** con la mayoría de los sistemas legacy, esta documentación se centrará principalmente en la **integración a través de la interfaz serie [RS232C](RS232-fundamental-concepts.md)**. Esta opción es universalmente soportada, bien documentada y, por lo general, la más sencilla de implementar con herramientas y adaptadores económicos.
 
+---
 
 ### Requisitos Esenciales para la Integración
 
@@ -33,7 +33,7 @@ Para llevar a cabo la integración de la balanza Mettler Toledo Newclassic MS ut
 
 Le invitamos a consultar la siguiente sección donde detallamos exhaustivamente estos elementos:
 
-➡️ [**3. Requisitos para la Integración (Hardware y Software)**](docs/integrations_requirements.md)
+➡️ [**3. Requisitos para la Integración (Hardware y Software)**](integrations_requirements.md)
 
 ---
 
