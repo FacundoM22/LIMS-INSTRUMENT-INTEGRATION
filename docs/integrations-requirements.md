@@ -27,3 +27,19 @@ El objetivo primordial aquí es crear un puente robusto que conecte la balanza (
     * **Descripción:** El conector físico esencial para unir la balanza con el servidor de dispositivo serie.
     * **Configuración:** La configuración específica (directo o null-modem) y el pinout exacto deben ser verificados directamente en el manual técnico de su modelo de balanza.
     * **Costo Estimado:** Aproximadamente **$5 -
+
+### 3.2. Requisitos de Software
+
+Una vez establecida la conexión física entre la balanza Mettler Toledo y la red mediante un conversor RS232 a Ethernet, es necesario contar con un **software que procese y dirija los datos generados** hacia el sistema LIMS correspondiente (por ejemplo, **LabWare**).
+
+Este software puede ser desarrollado internamente o provisto por terceros, y su función principal es **cerrar el circuito de integración**, garantizando que cada medición sea interpretada, validada y enviada correctamente al LIMS.
+
+#### Funciones que debe cumplir el software de integración:
+
+* **Escuchar el puerto serie virtual** expuesto por el servidor RS232-Ethernet.
+* **Leer, interpretar y validar** las tramas de datos emitidas por la balanza (habitualmente en formato texto, con separadores como CR/LF).
+* **Asociar la medición** a un identificador de muestra, orden o código de lote proveniente del LIMS o de un escáner de código de barras.
+* **Enviar la información al LIMS** utilizando la interfaz provista por el sistema (por ejemplo, una API RESTful en el caso de LabWare).
+* **Registrar logs** de las operaciones realizadas, incluyendo fechas, datos transmitidos y confirmación de recepción por parte del LIMS, para fines de trazabilidad y auditoría.
+
+> 💡 Este documento no provee el software de integración, pero **deja establecidas las condiciones técnicas necesarias para su desarrollo e implementación**, permitiendo que cualquier equipo técnico o proveedor pueda integrarse al sistema de forma ordenada, segura y eficiente.
