@@ -40,4 +40,8 @@ Le invitamos a consultar la siguiente sección donde detallamos exhaustivamente 
 
 ---
 
+### Integración técnica entre el instrumento Legacy y el Middleware (en este caso "Lantronix")
+➡️ [**4. Integración técnica entre el instrumento Legacy y el Middleware**](legacy-lantronix-setup.md)
+
+
 Este documento seguirá profundizando en cada uno de estos puntos, mostrando casos reales y ejemplos prácticos de integración con equipos específicos.
