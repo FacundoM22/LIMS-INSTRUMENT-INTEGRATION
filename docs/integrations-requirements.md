@@ -48,7 +48,7 @@ Este software puede ser desarrollado internamente o provisto por terceros, y su 
 
 Para facilitar el desarrollo y la integración, es fundamental contar con herramientas que permitan simular la comunicación entre la balanza y el sistema LIMS, especialmente cuando el hardware intermediario (como el conversor Lantronix) aún no está disponible.
 
-#### Simulador Virtual de Balanza
+#### [Simulador Virtual de Balanza](simulador-balanza.md)
 
 Se ha desarrollado un **Simulador Virtual de Balanza** en Python, que actúa como un servidor TCP emulando el comportamiento de una balanza analítica conectada por red. Este simulador:
 
