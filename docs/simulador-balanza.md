@@ -86,7 +86,7 @@ Podés acceder al código fuente y modificarlo libremente desde:
 
 El simulador fue construido con **Python 3.13** y empaquetado usando **PyInstaller**. Debido a este empaquetado, algunos antivirus pueden lanzar advertencias **falsas**.
 
-🧪 Ver análisis en: [VirusTotal](https://www.virustotal.com/gui/file/TU_HASH_AQUI)
+🧪 Ver análisis en: [VirusTotal](https://www.virustotal.com/gui/file/7d13f449ddb1d66fbbcb5b7a3a2f82b0f6cce230401dc0edcf87b60127cbdafe)
 
 ---
 
