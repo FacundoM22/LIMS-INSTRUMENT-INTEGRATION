@@ -17,27 +17,41 @@ Descargá el ejecutable para Windows desde el siguiente enlace:
 
 ## 🖥️ Interfaz del Simulador
 
-A continuación se muestran capturas reales de la interfaz de la balanza virtual:
-
 <p align="center">
   <img src="files/Simulador de balanza PIC/Icon.PNG" alt="Icono del simulador de balanza." width="100"/>
 </p>
+
+
+## 🧭 Paso 1: Iniciar el servidor en el Simulador de Balanza
+
+El primer paso para comenzar la simulación es iniciar el servidor TCP desde la interfaz del simulador. Esto habilita la escucha en el puerto 9000, esperando una conexión desde un cliente (como Hercules o un sistema LIMS).
+
+<p align="center">
+  <img src="files/Simulador de balanza PIC/Simulador de balanza TCP connect.PNG" alt="Iniciar servidor TCP en el Simulador de Balanza" width="600"/>
+</p>
+
+> ✅ Una vez iniciado, el log indicará que el simulador está escuchando conexiones entrantes.
+
+
+## 🔗 Paso 2: Conexión desde el cliente (Hercules)
+
+Una vez que el servidor TCP del simulador está activo, se puede establecer la conexión desde un cliente como **Hercules**. En este caso, se realiza la conexión a `127.0.0.1:9000`, que corresponde al localhost (misma PC).
 
 <p align="center">
   <img src="files/Simulador de balanza PIC/Secuencia automatica.PNG" alt="Ejemplo de peso enviado al LIMS" width="1000"/>
 </p>
 
+> ✅ Hercules confirma la conexión exitosa mostrando el estado de conexión activa. A partir de este punto, está preparado para recibir los datos de peso simulados.
+
+## ⏹️ Paso 3: Detener el servidor del simulador
+
+Cuando finalices las pruebas, es importante detener correctamente el servidor TCP para liberar el puerto y cerrar la conexión.
 
 <p align="center">
-  <img src="files/Simulador de balanza PIC/Simulador de balanza TCP connect.PNG" alt="Ejemplo de peso enviado al LIMS" width="600"/>
+  <img src="files/Simulador de balanza PIC/Servidor detenido.PNG" alt="Servidor detenido en el simulador de balanza" width="1000"/>
 </p>
 
-
-<p align="center">
-  <img src="files/Simulador de balanza PIC/Servidor detenido.PNG" alt="Ejemplo de peso enviado al LIMS" width="1000"/>
-</p>
-
-
+> 🔌 Al hacer clic en "Detener Servidor", el simulador cerrará la conexión y dejará de escuchar nuevos clientes.
 
 ---
 
@@ -51,18 +65,6 @@ A continuación se muestran capturas reales de la interfaz de la balanza virtual
 | **Secuencia automática**         | Envia pesos aleatorios cada segundo hasta que se detenga. |
 | **Log de eventos**               | Muestra en tiempo real todas las conexiones y pesos transmitidos. |
 
----
-
-## 🧪 Cómo integrarlo con un cliente TCP (como Hercules)
-
-1. Abrí Hercules.
-2. En la pestaña **TCP Client**, conectate a `127.0.0.1` en el puerto `9000`.
-3. Desde el simulador, iniciá el servidor.
-4. Probá enviar pesos fijos o aleatorios, y verás los datos reflejados en Hercules.
-
-<p align="center">
-  <img src="images/hercules_recibiendo.png" alt="Hercules mostrando datos enviados por la balanza virtual" width="600"/>
-</p>
 
 ---
 
