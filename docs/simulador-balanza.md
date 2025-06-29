@@ -17,6 +17,8 @@ Descargá el ejecutable para Windows desde el siguiente enlace:
 
 ## 🖥️ Interfaz del Simulador
 
+### Icono del aplicativo:
+
 <p align="center">
   <img src="files/Simulador de balanza PIC/Icon.PNG" alt="Icono del simulador de balanza." width="100"/>
 </p>
