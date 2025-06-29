@@ -72,13 +72,6 @@ A continuación se muestran capturas reales de la interfaz de la balanza virtual
 - Simular comportamiento de una balanza real en una red TCP.
 - Crear scripts de testing para la capa software sin necesidad de laboratorio físico.
 
----
-
-## 📂 Código fuente
-
-Podés acceder al código fuente y modificarlo libremente desde:
-
-🔗 [GitHub - simulador-balanza-virtual](https://github.com/tuusuario/simulador-balanza-virtual)
 
 ---
 
@@ -93,7 +86,7 @@ El simulador fue construido con **Python 3.13** y empaquetado usando **PyInstall
 ## 📬 Contacto
 
 Para reportar errores o sugerencias:  
-✉️ facundo.labs@tucorreo.com
+✉️ facundomoriconi.code@gmail.com
 
 ---
 
