@@ -61,7 +61,7 @@ El simulador puede ser distribuido como un ejecutable independiente (`simulador_
 
 #### [Hercules - Cliente TCP/Serial para Pruebas](https://www.hw-group.com/software/hercules-setup-utility)
 
-Para validar la comunicación con la balanza virtual o el dispositivo Lantronix real, se recomienda utilizar la herramienta **Hercules**, que permite:
+Para validar la comunicación con la balanza virtual o el dispositivo Lantronix real, se recomienda utilizar la herramienta [**Hercules**](https://www.hw-group.com/software/hercules-setup-utility), que permite:
 
 - Conectarse como cliente TCP a la dirección IP y puerto donde está el simulador o el conversor.
 - Visualizar en tiempo real los datos enviados por la balanza.
