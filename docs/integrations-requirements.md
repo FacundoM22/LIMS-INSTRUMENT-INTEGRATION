@@ -59,7 +59,7 @@ Se ha desarrollado un **Simulador Virtual de Balanza** en Python, que actúa com
 
 El simulador puede ser distribuido como un ejecutable independiente (`simulador_balanza.exe`) compilado con PyInstaller, lo que permite su ejecución en sistemas Windows sin necesidad de instalar Python ni dependencias.
 
-#### Hercules - Cliente TCP/Serial para Pruebas
+#### [Hercules - Cliente TCP/Serial para Pruebas](https://www.hw-group.com/software/hercules-setup-utility)
 
 Para validar la comunicación con la balanza virtual o el dispositivo Lantronix real, se recomienda utilizar la herramienta **Hercules**, que permite:
 
