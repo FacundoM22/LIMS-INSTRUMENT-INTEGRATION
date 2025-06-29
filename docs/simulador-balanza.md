@@ -8,7 +8,7 @@ Este simulador permite emular el comportamiento de una balanza analítica conect
 
 Descargá el ejecutable para Windows desde el siguiente enlace:
 
-[Descargar Simulador de Balanza (exe)](https://github.com/FacundoM22/LIMS-INSTRUMENT-INTEGRATION/releases/download/v1.0/Simulador%20De%20Balanza.exe)
+[Simulador Virtual de Balanza (Windows .exe)](https://github.com/FacundoM22/LIMS-INSTRUMENT-INTEGRATION/releases/download/v1.0/Simulador.De.Balanza.exe)
 
 > 🔐 **Nota:** Algunos antivirus pueden generar falsos positivos debido a que el ejecutable fue empaquetado con PyInstaller. Podés verificar su seguridad en [VirusTotal](https://www.virustotal.com/gui/file/TU_HASH_AQUI).  
 > El código fuente está disponible en este mismo repositorio para mayor transparencia.
