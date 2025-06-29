@@ -43,3 +43,31 @@ Este software puede ser desarrollado internamente o provisto por terceros, y su 
 * **Registrar logs** de las operaciones realizadas, incluyendo fechas, datos transmitidos y confirmación de recepción por parte del LIMS, para fines de trazabilidad y auditoría.
 
 > 💡 Este documento no provee el software de integración, pero **deja establecidas las condiciones técnicas necesarias para su desarrollo e implementación**, permitiendo que cualquier equipo técnico o proveedor pueda integrarse al sistema de forma ordenada, segura y eficiente.
+
+### 3.3. Herramientas para Pruebas y Simulación
+
+Para facilitar el desarrollo y la integración, es fundamental contar con herramientas que permitan simular la comunicación entre la balanza y el sistema LIMS, especialmente cuando el hardware intermediario (como el conversor Lantronix) aún no está disponible.
+
+#### Simulador Virtual de Balanza
+
+Se ha desarrollado un **Simulador Virtual de Balanza** en Python, que actúa como un servidor TCP emulando el comportamiento de una balanza analítica conectada por red. Este simulador:
+
+- Expone un servidor TCP escuchando en un puerto configurable (por defecto, el puerto 9000).
+- Permite enviar pesos fijos o aleatorios en formato texto.
+- Soporta una secuencia automática de envío de pesos a intervalos regulares.
+- Cuenta con una interfaz gráfica sencilla para control manual.
+
+El simulador puede ser distribuido como un ejecutable independiente (`simulador_balanza.exe`) compilado con PyInstaller, lo que permite su ejecución en sistemas Windows sin necesidad de instalar Python ni dependencias.
+
+#### Hercules - Cliente TCP/Serial para Pruebas
+
+Para validar la comunicación con la balanza virtual o el dispositivo Lantronix real, se recomienda utilizar la herramienta **Hercules**, que permite:
+
+- Conectarse como cliente TCP a la dirección IP y puerto donde está el simulador o el conversor.
+- Visualizar en tiempo real los datos enviados por la balanza.
+- Simular recepción y envío de datos mediante protocolos TCP o comunicación serial.
+
+---
+
+> 💡 Esta combinación permite realizar pruebas de integración, depurar y validar flujos de datos antes de disponer del hardware final, acelerando el desarrollo y reduciendo riesgos.
+
