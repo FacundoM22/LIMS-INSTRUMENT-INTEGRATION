@@ -30,7 +30,7 @@ Este repo nació para documentar cómo integrar equipos de laboratorio con siste
 Quiero aclarar que no me considero un experto ni mucho menos. Simplemente me gusta compartir lo que voy aprendiendo en el camino. Si estás enfrentando un proyecto parecido al que estoy llevando a cabo espero que pueda servirte como punto de partida y ojalá te aporte aunque sea un granito de arena.
 
 
-La idea es compartir lo aprendido en el campo, con una mirada práctica y concreta. Vas a encontrar explicaciones técnicas, pero también ejemplos reales y soluciones simples que cualquiera pueda implementar, especialmente en laboratorios que todavía dependen de equipos **legacy** que se comunican por **RS232**.
+La idea es no guardarme lo aprendido en el campo si no todo lo contrario, con una mirada práctica y concreta. Vas a encontrar explicaciones técnicas, pero también ejemplos reales y soluciones simples que cualquiera pueda implementar, especialmente en laboratorios que todavía dependen de equipos **legacy** que se comunican por **RS232**.
 
 <p align="center">
     <img src="https://media.licdn.com/dms/image/C5612AQFOWJ8Dwntwpg/article-cover_image-shrink_720_1280/0/1591671532125?e=2147483647&v=beta&t=rrZzjJp24OxLL7XAai05PrVAqV7BneDYCKgRS_eAXv4" alt="Interfaz de un Sistema LIMS para Laboratorios" width="600"/>
