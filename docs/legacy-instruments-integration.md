@@ -68,5 +68,9 @@ Este circuito permite recrear la señal serial en condiciones controladas, ayuda
 
 ---
 
-A partir de aquí, continuaremos con el montaje físico y la puesta en marcha en el entorno real del laboratorio.
+
+[⬆ Volver arriba](#-integración-de-instrumentos-legacy-de-laboratorio-con-lims-low-cost)
+
+
+[🏠 Volver al índice principal](https://github.com/FacundoM22/LIMS-INSTRUMENT-INTEGRATION/tree/main)  
 
