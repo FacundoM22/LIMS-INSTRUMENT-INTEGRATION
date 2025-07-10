@@ -43,5 +43,30 @@ Le invitamos a consultar la siguiente sección donde detallamos exhaustivamente 
 ### Integración técnica entre el instrumento Legacy y el Middleware (en este caso "Lantronix")
 ➡️ [**4. Integración técnica entre el instrumento Legacy y el Middleware**](legacy-lantronix-setup.md)
 
+---
 
-Este documento seguirá profundizando en cada uno de estos puntos, mostrando casos reales y ejemplos prácticos de integración con equipos específicos.
+## 🧩 Interpretación y Preparación para el Montaje
+
+Una vez comprendidos los aspectos técnicos de la interfaz RS232C, los requisitos de hardware y software, y el funcionamiento del middleware Lantronix, estamos listos para dar el siguiente paso: la implementación práctica en laboratorio.
+
+En esta etapa, es fundamental:
+
+- **Verificar la compatibilidad física y eléctrica** entre la balanza y el dispositivo intermediario.
+- **Asegurar la correcta configuración de parámetros de comunicación serial** para evitar pérdida o corrupción de datos.
+- **Planificar el cableado y la integración de red**, pensando en la robustez y facilidad de mantenimiento del sistema.
+- **Realizar pruebas de conexión y transmisión de datos** antes de incorporar el sistema en el flujo operativo del laboratorio.
+
+Para facilitar esta comprensión y el diseño de la solución, presentamos a continuación un esquema básico del circuito utilizado para simular y testear la comunicación serial entre el instrumento legacy y el middleware:
+
+<p align="center">
+    <img src="files/Simulador de balanza PIC/circuit.png" alt="Esquema de simulador de comunicación serial RS232" width="600"/>
+</p>
+
+> Figura 3: Esquema básico del simulador que representa la interfaz serial entre la balanza legacy y el middleware.
+
+Este circuito permite recrear la señal serial en condiciones controladas, ayudando a validar la configuración y la integridad de la transmisión antes de proceder con el equipo real.
+
+---
+
+A partir de aquí, continuaremos con el montaje físico y la puesta en marcha en el entorno real del laboratorio.
+
