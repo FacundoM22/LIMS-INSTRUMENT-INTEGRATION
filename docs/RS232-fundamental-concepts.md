@@ -84,6 +84,13 @@ Dada la flexibilidad de RS232 y las diversas implementaciones de los fabricantes
 
 Comprender estos conceptos básicos de RS232 es el primer paso para una integración exitosa y sin frustraciones con instrumentos legacy.
 
-[⬆ Volver al inicio](#-introducción-al-protocolo-de-comunicación-serie-rs232)  
+<p align="center">
+  <a href="#-introducción-al-protocolo-de-comunicación-serie-rs232" style="text-decoration:none; font-weight:bold; color:#0366d6;">
+    ⬆ Volver al inicio
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/FacundoM22/LIMS-INSTRUMENT-INTEGRATION/tree/main" style="text-decoration:none; font-weight:bold; color:#0366d6;">
+    🏠 Volver al índice principal
+  </a>
+</p>
 
-[🏠 Volver al índice principal](https://github.com/FacundoM22/LIMS-INSTRUMENT-INTEGRATION/tree/main)  
