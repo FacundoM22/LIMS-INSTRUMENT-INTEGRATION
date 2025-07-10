@@ -21,6 +21,12 @@ Se utiliza principalmente para gestionar y automatizar los procesos relacionados
 **En resumen, un LIMS es una herramienta fundamental para mejorar la eficiencia, precisión y calidad en la gestión de laboratorios.**
 
 
-[⬆ Volver al inicio](#qué-es-lims)  
-
-[🏠 Volver al índice principal](https://github.com/FacundoM22/LIMS-INSTRUMENT-INTEGRATION/tree/main)  
+<p align="center">
+  <a href="#qué-es-lims" style="text-decoration:none; font-weight:bold; color:#2b6cb0;">
+    ⬆ Volver arriba
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/FacundoM22/LIMS-INSTRUMENT-INTEGRATION/tree/main" style="text-decoration:none; font-weight:bold; color:#2b6cb0;">
+    🏠 Volver al índice principal
+  </a>
+</p>
