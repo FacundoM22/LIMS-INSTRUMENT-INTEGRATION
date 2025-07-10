@@ -18,7 +18,7 @@ Se utiliza principalmente para gestionar y automatizar los procesos relacionados
 
 - **💡 Optimización de recursos:** Permite una mejor administración del personal, equipos y materiales, reduciendo costos y tiempos.
 
-**En resumen, un LIMS es una herramienta fundamental para mejorar la eficiencia, precisión y calidad en la gestión de laboratorios.**
+**En fin, un LIMS es clave para que un laboratorio funcione mejor, más rápido y con datos confiables. Hoy en día, es casi inevitable que todos los laboratorios adopten un sistema LIMS para no quedar atrás en materia de garantía de calidad y cumplimiento normativo.**
 
 
 <p align="center">
