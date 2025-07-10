@@ -38,6 +38,13 @@ Cada uno de estos instrumentos puede variar en la forma en que transmite sus dat
 Este documento seguirá profundizando en cada uno de estos puntos, mostrando casos reales y ejemplos prácticos de integración con equipos específicos.
 
 
-[⬆ Volver al inicio](#-integración-de-instrumentos-en-laboratorios)  
+<p align="center">
+  <a href="#-integración-de-instrumentos-en-laboratorios" style="text-decoration:none; font-weight:bold; color:#0366d6;">
+    ⬆ Volver al inicio
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/FacundoM22/LIMS-INSTRUMENT-INTEGRATION/tree/main" style="text-decoration:none; font-weight:bold; color:#0366d6;">
+    🏠 Volver al índice principal
+  </a>
+</p>
 
-[🏠 Volver al índice principal](https://github.com/FacundoM22/LIMS-INSTRUMENT-INTEGRATION/tree/main)  
