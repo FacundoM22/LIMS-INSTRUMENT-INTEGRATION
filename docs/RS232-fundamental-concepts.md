@@ -83,3 +83,7 @@ Dada la flexibilidad de RS232 y las diversas implementaciones de los fabricantes
 * El soporte para control de flujo (hardware, software o ninguno).
 
 Comprender estos conceptos básicos de RS232 es el primer paso para una integración exitosa y sin frustraciones con instrumentos legacy.
+
+[⬆ Volver al inicio](#-introducción-al-protocolo-de-comunicación-serie-rs232)  
+
+[🏠 Volver al índice principal](https://github.com/FacundoM22/LIMS-INSTRUMENT-INTEGRATION/tree/main)  
