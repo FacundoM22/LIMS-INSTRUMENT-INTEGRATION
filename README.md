@@ -21,6 +21,13 @@ Acá vas a encontrar todo lo necesario para entender cómo integrar instrumentos
     * [Guía técnica del protocolo RS232](docs/RS232-fundamental-concepts.md)  
         _Todo lo que tenés que saber sobre cómo funciona este protocolo y cómo sacarle jugo._
 
+
+* **⚠️ Desafíos con los que me encontré**
+
+1. [Mantener un sistema híbrido usando splitters](docs/sistema-hibrido.md)  
+   _Cuando el laboratorio necesita seguir imprimiendo tickets en papel **y** enviar datos al LIMS al mismo tiempo, no queda otra que volverse creativo. Este desafío cuenta cómo logré mantener un sistema híbrido estable usando splitters RS232, evitando que la señal se vuelva loca en el camino._
+
+
 ---
 
 ## 📝 ¿De que trata este proyecto?
